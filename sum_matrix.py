@@ -1,0 +1,10 @@
+import numpy as np
+x = np.array([[1, 0],[0,1]])
+print("Original matrix:")
+print(x)
+total_sum = np.sum(x)
+print("\nSum of all elements:", total_sum)
+column_sums = np.sum(x, axis=0)
+print("Sum of each column:", column_sums)
+row_sums = np.sum(x, axis=1)
+print("Sum of each row:", row_sums)
